@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// this code is less efficient than python
+
 void testa(){
     int num, cont = 0, max = 0;
     printf("Insira o numero que deseja testar: ");
