@@ -2,16 +2,10 @@
 FROM python:3.10-slim
 
 # Define o diretório de trabalho dentro do contêiner
-WORKDIR /app
+WORKDIR /CollatzMath
 
 # Copia o arquivo de dependências para o contêiner
-COPY requirements.txt .
-
-# Instala as dependências (se você tiver o requirements.txt)
-RUN pip install --no-cache-dir -r requirements.txt
-
-# Copia todo o código da sua pasta local para o contêiner
-COPY . .
+COPY CollatzConjecture.py .
 
 # Comando para rodar o seu script Python quando o container iniciar
-CMD ["python", "main.py"]
+CMD ["python", "CollatzConjecture.py"]
