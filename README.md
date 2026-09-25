@@ -8,7 +8,7 @@
 ---
 
 ## 🎯 Purpose
-The purpose of this project is to explore one of maths most intriguing problems. It's not expected to solve this conjecture, as it is only meant to check one number at a time.
+The purpose of this project is to explore one of maths most intriguing problems, the Collatz Conjecture. The rules are simple: if you have an odd number you multiply it by 3 and add one, if it's an even number you divide it by two. The Conjecture states that any number you choose will always lead to the number one. This program is not expected to solve this conjecture, as it is only meant to check how far one number can go and how long it would take until it reaches the 4-2-1 loop.
 
 ## 🛠️ Technology
 The simulator was entirely developed using *Python*.
